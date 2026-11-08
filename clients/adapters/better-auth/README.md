@@ -290,7 +290,7 @@ const auth = betterAuth({
                     successUrl: "/success?checkout_id={CHECKOUT_ID}",
                     // Optional Return URL, which renders a Back-button in the Checkout
                     returnUrl: "https://myapp.com",
-                    // Wheather you want to allow unauthenticated checkout sessions or not
+                    // Whether you want to allow unauthenticated checkout sessions or not
                     authenticatedUsersOnly: true,
                     // Enforces the theme - System-preferred theme will be set if left omitted
                     theme: "dark"
@@ -604,7 +604,7 @@ The authenticated user is automatically associated with the ingested event.
 
 A simple method for listing the authenticated user's Usage Meters, or as we call them, Customer Meters.
 
-Customer Meter's contains all information about their consumtion on your defined meters.
+Customer Meter's contains all information about their consumption on your defined meters.
 
 - Customer Information
 - Meter Information
